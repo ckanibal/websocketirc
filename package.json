@@ -1,0 +1,29 @@
+{
+  "name": "websocketirc",
+  "version": "1.0.0",
+  "description": "A rfc-6455 compliant IRC client running in your browser",
+  "main": "src/app.tsx",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --no-info",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ckanibal <frustrum@pictor.uberspace.de>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.0.18",
+    "@types/react-dom": "^16.0.2",
+    "nodemon": "^1.12.1",
+    "ts-loader": "^3.1.0",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "ws": "^3.2.0",
+    "xstream": "^11.0.0"
+  }
+}
